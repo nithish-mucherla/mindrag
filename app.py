@@ -176,7 +176,7 @@ async def on_chat_start():
             "- *What are the symptoms of PTSD?*\n"
             "- *What's the difference between bipolar I and II?*\n\n"
             "---\n"
-            "⚕️ *For emergencies, call 988 (Suicide & Crisis Lifeline) or text HOME to 741741.*"
+            "⚠️ *In crisis? Contact emergency services or a local crisis helpline in your country.*"
         )
     ).send()
 

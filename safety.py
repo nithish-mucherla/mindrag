@@ -16,12 +16,13 @@ CRISIS_RESOURCES = """
 ---
 🆘 **If you or someone you know is in crisis, please reach out immediately:**
 
-- **988 Suicide & Crisis Lifeline** — Call or text **988** (US, 24/7)
-- **Crisis Text Line** — Text **HOME** to **741741** (US, 24/7)
-- **NAMI Helpline** — Call **1-800-950-6264** (Mon–Fri, 10am–10pm ET)
+**Find local crisis resources:**
+- **Emergency services** — Call emergency number in your country (e.g., 911 in US, 112 in EU, 000 in Australia)
+- **Crisis helplines** — Search for mental health crisis lines in your country or region
 - **International Association for Suicide Prevention** — https://www.iasp.info/resources/Crisis_Centres/
+- **Find A Therapist** — Contact a local mental health professional or crisis center
 
-*Please speak with a mental health professional or go to your nearest emergency room if you are in immediate danger.*
+*Please speak with a mental health professional, visit your nearest emergency room, or contact emergency services if you are in immediate danger.*
 ---
 """
 

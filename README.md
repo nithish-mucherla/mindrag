@@ -106,7 +106,7 @@ User Query
 
 | Guardrail                | What it does                                                          |
 | ------------------------ | --------------------------------------------------------------------- |
-| **Crisis Detection**     | Classifies distress signals → shows 988, Crisis Text Line, NAMI       |
+| **Crisis Detection**     | Classifies distress signals → shows local crisis resources and helplines |
 | **Scope Filter**         | Rejects out-of-scope questions (diagnosis, medication, etc.)          |
 | **Hard Rules in Prompt** | No diagnosis, no prescriptions, always cite sources                   |
 | **Strict Grounding**     | LLM only uses retrieved context — no hallucination from training data |
@@ -139,9 +139,3 @@ User Query
 
 This tool is for **educational purposes only**. It does not provide medical advice,
 diagnosis, or treatment. Always consult a licensed mental health professional.
-
-**Crisis resources:**
-
-- 📞 988 Suicide & Crisis Lifeline — call or text **988**
-- 💬 Crisis Text Line — text **HOME** to **741741**
-- 📞 NAMI Helpline — **1-800-950-6264**
