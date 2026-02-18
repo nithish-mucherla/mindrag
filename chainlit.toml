@@ -1,0 +1,19 @@
+[project]
+# App name shown in the UI
+name = "MindRAG"
+
+# Enable message history in session
+enable_telemetry = false
+
+[UI]
+# Name displayed in the header
+name = "MindRAG — Mental Health Psychoeducation"
+# Shown below the name
+description = "Evidence-based mental health education grounded in NIMH and APA guidelines."
+# Collapse the sidebar by default
+default_collapse_content = true
+# Disable message editing (fixes dialog rendering issue)
+allow_message_edit = false
+
+[meta]
+generated_by = "MindRAG v1.0"
