@@ -104,34 +104,12 @@ User Query
 
 ## 🛡️ Safety Guardrails
 
-| Guardrail                | What it does                                                          |
-| ------------------------ | --------------------------------------------------------------------- |
+| Guardrail                | What it does                                                             |
+| ------------------------ | ------------------------------------------------------------------------ |
 | **Crisis Detection**     | Classifies distress signals → shows local crisis resources and helplines |
-| **Scope Filter**         | Rejects out-of-scope questions (diagnosis, medication, etc.)          |
-| **Hard Rules in Prompt** | No diagnosis, no prescriptions, always cite sources                   |
-| **Strict Grounding**     | LLM only uses retrieved context — no hallucination from training data |
-
----
-
-## 🔮 What to Build Next (Post-MVP)
-
-### Week 3–4: Better Retrieval
-
-- [ ] Add BM25 sparse index alongside dense vectors (hybrid search)
-- [ ] Integrate `BAAI/bge-reranker-v2` cross-encoder reranker
-- [ ] Add HyDE (Hypothetical Document Embeddings) for vague queries
-
-### Week 5–6: Evaluation
-
-- [ ] Set up RAGAS eval suite (faithfulness, context recall, answer relevancy)
-- [ ] Build golden test set from NIMH FAQ pages
-- [ ] Add LangSmith tracing for observability
-
-### Week 7–8: Production
-
-- [ ] Swap Chroma for Qdrant (better scaling)
-- [ ] Add conversation memory (multi-turn context)
-- [ ] Deploy to Railway / Render / Hugging Face Spaces
+| **Scope Filter**         | Rejects out-of-scope questions (diagnosis, medication, etc.)             |
+| **Hard Rules in Prompt** | No diagnosis, no prescriptions, always cite sources                      |
+| **Strict Grounding**     | LLM only uses retrieved context — no hallucination from training data    |
 
 ---
 
